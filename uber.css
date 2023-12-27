@@ -1,0 +1,477 @@
+.container 
+{
+    max-width: 1441px;
+    margin: auto;
+}
+body 
+{
+    margin: 0;
+} 
+.header
+{
+    display: flex;
+    width: 100%;
+    height: 75px;
+    margin:0;
+    background-color: #000000;
+}
+.logo-text 
+{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    padding-top: 23px;
+    margin-left: 85px;
+}
+.logo-text a
+{
+    text-decoration: none;
+    color: white;
+}
+.headerlist
+{
+    margin-top: 25px;
+    margin-left: 20px;
+    border:hidden;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+select.headerlist:hover
+{ 
+    height: 30px;
+    border-radius: 9px;
+    background-color: grey;
+}
+.headerlabels
+{
+  padding-left: 20px;
+  padding-top: 23px;
+}
+.headerlabels1
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.headerlabels2
+{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.loginside
+{
+    display: flex;
+    gap:30px;
+    padding-top: 30px;
+    padding-left: 610px;
+    cursor: pointer;
+}
+.loginside p
+{
+    margin-top: 1px;
+}
+.divmove
+{
+    display:flex;
+}
+.globe
+{
+    height: 19px;
+}
+.grid
+{
+    height: 19px;
+}
+.loginbutton
+{
+    font-size: 15px;
+    color:white;
+    border-radius: 20px;
+    font-size: 15px;
+    width: 75px;
+    height: 28px;
+    background-color: black;
+    border: none;
+
+}
+.loginbutton:hover
+{
+    background-color: grey;
+}
+.signupbutton
+{
+    font-size: 14px;
+    color: black;
+    border-radius: 20px;
+    border:none;
+    width: 75px;
+    height: 28px;
+    cursor: pointer;
+}
+.signupbutton:hover
+{
+    background-color: grey;
+}
+.body1
+{
+    height:948px;
+    width:100%;
+    background-color:white;
+}
+.card
+{
+    position: absolute;
+    top:1;
+    left:10;
+    width: 550px;
+    height: 540px;
+    position: absolute;
+    background-color: white;
+    top: 116px;
+    left: 147px;
+    
+}
+.cardrow1
+{
+    display:flex;
+    padding-left: 90px;
+    padding-top: 20px;
+    gap:90px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+#h1card
+{
+    margin-left: 50px;
+    padding-top: 18px;
+}
+.inputcard
+{
+    width: 400px;
+    height: 43px;
+    margin-left: 50px;
+    margin-top: 30px;
+    padding-left: 25px;
+    background-color: #e9e9e9;
+    border:none;
+}
+.cardbuttons button
+{
+    height: 42px;
+    width: 156px;
+    margin-top: 19px;
+    margin-left: 50px;
+    font-size: 17px;
+    border-radius: 16px;
+    border:none;
+    cursor: pointer;
+}
+#requestbutton
+{
+    background-color:black ;
+    color: white;
+}
+#requestbutton:hover
+{
+    background-color:rgb(59, 53, 53);
+}
+#schedulebutton
+{
+    background-color:#e9e9e9 ;
+    color:black;
+}
+#schedulebutton:hover
+{
+    background-color: #cecaca;
+}
+.bgimage
+{
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    width: 100%;
+    /* height: auto; */
+    position: relative;
+}
+.bgimage2 
+{
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    width: 100%;
+}
+.body2
+{
+    height:1680px;
+    width:100%;
+    background-color:white;
+}
+h1
+{
+    color: black;
+    text-align: left;
+    margin: 0;
+    margin-left: 150px;
+    padding-top: 80px;
+    font-size: xxx-large;
+}
+.row1 
+{
+    display:flex; 
+    gap: 90px;
+    justify-content: center;
+}
+.row2
+{
+    display:flex;
+    gap:90px;
+    justify-content: center;
+}
+.row3
+{
+    display:flex;
+    
+} 
+#img1-row3
+{
+    height: 310px;
+    width: 560px;
+}
+#img2-row3
+{
+    height: 310px;
+    width: 560px;
+    padding-left: 80px;
+}
+.row4
+{
+    display:flex;
+}
+.text-row4
+{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text2-row4
+{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 65px;
+}
+.row5
+{
+    display:flex;
+    gap:30px;
+    font-size: 15px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+
+}
+.link3
+{
+    font-size: 15px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding-left: 130px;
+}
+.row6
+{
+    display:flex;
+}
+.aboutus-row6
+{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+.text-row6
+{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo2
+{
+    padding-left: 60px;
+}
+.logo3
+{
+    padding-left: 60px;
+}
+.link-row6
+{
+    
+    font-size: 15px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+
+}
+.body3
+{
+    width:100%;
+    height:420px;
+    background-color: #e9e9e9;
+}
+#h1body3
+{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    padding-top: 20px;
+}
+.boxmove
+{
+    display:flex;
+}
+.box1
+{
+    background-color: white;
+    width: 552px;
+    height: 210px;
+    margin-left: 150px;
+    margin-top: 40px;
+    display:flex;
+}
+
+.box2
+{
+    background-color: white;
+    width: 552px;
+    height: 210px;
+    margin-left: 42px;
+    margin-top: 40px;
+    display: flex;
+}
+.uberlogo
+{
+    width: 150px;
+    height: 150px;
+    padding-top: 27px;
+    padding-left: 27px;
+}
+.linkbody3
+{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    padding-top: 95px;
+    padding-left: 26px;
+}
+.linkbody4
+{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    padding-top: 95px;
+    padding-left: 26px;
+
+}
+.body4
+{
+    width:100%;
+    height:220px;
+    background-color:white;
+    display:flex;
+}
+.signupdrive
+{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px; 
+    text-decoration: none;
+    color: black;
+    margin-left: 135px;
+    padding-top: 62px;
+}
+.footer
+{
+    background-color:black;
+    width:100%;
+    height: 950px;
+}
+.uber
+{
+    padding-top: 100px;
+    margin-left: 150px;
+    color: white;
+}
+.help
+{
+    padding-top: 19px;
+    margin-left: 150px;
+    color: white;
+    font-family: math;
+}
+.mainlist
+{
+    display: flex;
+}
+.footerdetails
+{
+    margin-left: 150px;
+    padding-top: 50px;
+    color:white;
+
+}
+.footerdetails p
+{
+    cursor: pointer;
+}
+.socialmedia
+{
+    margin-left: 147px;
+    padding-top: 44px;
+    justify-content:center;
+    cursor: pointer;
+}
+.move
+{
+    padding-left: 80px;
+}
+.footerbottom
+{
+    display:flex;
+    padding-left: 1098px;
+}
+.english
+{
+    padding-left: 20px;
+    margin-top: 1px;
+}
+
+.location
+{
+    padding-left: 45px;
+}
+.bangalore
+{
+    padding-left: 10px;
+    margin-top: 1px;
+}
+.imagesize
+{
+    display:flex;
+    height: 50px;
+    width: 130px;
+    padding-left: 140px;
+    padding-top: 50px;
+}
+#apple
+{
+    padding-left: 30px;
+}
+
+
+
+
